@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jutt Edits Studio - Developed by Jutt Cyber Tech</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
+    <link rel="shortcut icon" href="static/favicon/favicon.ico">
+    <link rel="manifest" href="static/favicon/manifest.json">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cyber: {
+                            dark: '#0a0f1c',
+                            card: '#111827',
+                            primary: '#06b6d4',
+                            secondary: '#3b82f6',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        tech: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0a0f1c;
+            color: #f3f4f6;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            text-rendering: optimizeLegibility;
+        }
+
+        html {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            scroll-behavior: smooth;
+        }
+
+        .glass-nav {
+            background: rgba(10, 15, 28, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .glass-card {
+            background: rgba(17, 24, 39, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            border-color: rgba(6, 182, 212, 0.4);
+            transform: translateY(-4px);
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #06b6d4, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .btn-hover {
+            transition: all 0.3s ease;
+        }
+
+        .btn-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -10px rgba(6, 182, 212, 0.5);
+        }
+
+        .float {
+            animation: float 6s ease-in-out infinite;
+            will-change: transform;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(1deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
+        }
+
+        .section-tag {
+            background: rgba(6, 182, 212, 0.1);
+            color: #06b6d4;
+            padding: 6px 16px;
+            border-radius: 99px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            display: inline-block;
+        }
+
+        .hero-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(6,182,212,0.1) 0%, rgba(10,15,28,0) 70%);
+            z-index: -1;
+            filter: blur(40px);
+            pointer-events: none;
+        }
+        .glass-custom {
+            background: rgba(10, 15, 28, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+
+<body class="antialiased min-h-screen flex flex-col">
+
+    <!-- Navigation (Black Vault Style) -->
+    <nav class="fixed top-0 w-full z-50 glass-custom" id="navbar">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <img src="static/logo/applogo2.png" alt="Jutt Edits Studio Logo" class="w-10 h-10 object-contain hover:rotate-12 transition-transform duration-500">
+                <span class="font-extrabold text-xl md:text-2xl tracking-tighter text-white">JUTT EDITS <span class="text-cyber-primary">STUDIO</span></span>
+            </div>
+
+            <div class="hidden md:flex items-center gap-10 font-semibold text-gray-400">
+                <a href="index.html" class="nav-link text-cyber-primary">Home</a>
+                <a href="#features" class="nav-link hover:text-white transition">Features</a>
+                <a href="https://github.com/juttcybertech/Jutt-Edits-Studio" target="_blank" class="nav-link hover:text-white transition">GitHub Repo</a>
+                <a href="https://wa.me/923194817239" target="_blank" class="nav-link hover:text-white transition">Contact Support</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button onclick="document.getElementById('mobileMenu').classList.toggle('hidden')" class="md:hidden text-white p-2">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Drawer -->
+        <div id="mobileMenu" class="hidden md:hidden absolute top-full right-0 w-64 glass-custom flex flex-col items-start px-8 py-6 gap-5 text-lg font-bold text-white border-l border-b border-white/20 shadow-2xl rounded-bl-3xl">
+            <a href="index.html" class="hover:text-blue-200 transition w-full" onclick="this.parentElement.classList.add('hidden')">Home</a>
+            <a href="#features" class="hover:text-blue-200 transition w-full" onclick="this.parentElement.classList.add('hidden')">Features</a>
+            <a href="https://github.com/juttcybertech/Jutt-Edits-Studio" class="hover:text-blue-200 transition w-full" onclick="this.parentElement.classList.add('hidden')">GitHub Repo</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="flex-grow relative overflow-hidden pt-20">
+        <div class="hero-glow"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-24 text-center">
+            <div class="flex justify-center mb-8">
+                <img src="static/logo/applogo2.png" alt="Jutt Edits Studio Logo" class="h-40 float filter drop-shadow-[0_0_25px_rgba(6,182,212,0.6)]">
+            </div>
+            
+            <div class="mb-6"><span class="section-tag">Next-Gen Editing Software</span></div>
+            
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 text-white">
+                Professional Editing.<br>
+                <span class="gradient-text">Unleashed for Free.</span>
+            </h1>
+            
+            <p class="mt-4 max-w-3xl text-lg text-gray-400 mx-auto mb-10 leading-relaxed">
+                A high-performance, closed-source video editing software developed by <strong>Jutt Cyber Tech</strong>. Built to empower creators with zero tracking, zero subscriptions, and absolute privacy.
+            </p>
+            
+            <div class="flex justify-center gap-4 flex-wrap">
+                <button onclick="alert('Download will be available soon!')" class="btn-hover bg-cyber-primary hover:bg-cyan-600 text-black font-bold py-3 px-10 rounded-md transition-all flex items-center gap-2">
+                    <i class="fas fa-download"></i> Download Studio
+                </button>
+                <a href="#features" class="btn-hover glass-card text-white font-medium py-3 px-8 rounded-md transition-colors flex items-center gap-2">
+                    Explore Features
+                </a>
+            </div>
+        </div>
+
+        <!-- Features Grid -->
+        <div id="features" class="bg-transparent py-24 border-t border-white/5 relative z-10">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <span class="section-tag mb-4">Core Capabilities</span>
+                    <h2 class="text-3xl font-bold text-white uppercase tracking-wider mt-4">Why Choose Jutt Edits Studio?</h2>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="glass-card p-8 rounded-xl">
+                        <div class="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center mb-6 border border-blue-500/20">
+                            <i class="fas fa-microchip text-2xl text-blue-400"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-white">Hardware Acceleration</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Automatically leverages NVENC, AMF, or QSV depending on your system's graphics card for blazing fast 4K exports and buttery smooth timeline playback.
+                        </p>
+                    </div>
+                    
+                    <!-- Feature 2 -->
+                    <div class="glass-card p-8 rounded-xl">
+                        <div class="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center justify-center mb-6 border border-cyan-500/20">
+                            <i class="fas fa-play-circle text-2xl text-cyber-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-white">Real-Time Previews</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Experience instant playback of your edits without pre-rendering. Our highly optimized custom rendering engine ensures you see your changes exactly as you make them.
+                        </p>
+                    </div>
+                    
+                    <!-- Feature 3 -->
+                    <div class="glass-card p-8 rounded-xl">
+                        <div class="w-12 h-12 bg-purple-500/10 rounded-lg flex items-center justify-center mb-6 border border-purple-500/20">
+                            <i class="fas fa-layer-group text-2xl text-purple-400"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-white">Professional Workflow</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Featuring a robust undo/redo history stack, multi-track timeline rendering, precise cutting, and TikTok/Reels vertical export support out of the box.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dedicated Privacy Section -->
+        <div class="py-24 bg-[#050810] relative overflow-hidden border-t border-white/5">
+            <!-- Subtle background grid/pattern effect -->
+            <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(#06b6d4 1px, transparent 1px); background-size: 30px 30px;"></div>
+            
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+                <div class="w-24 h-24 bg-cyber-primary/10 rounded-full flex items-center justify-center mx-auto mb-8 border border-cyber-primary/30 shadow-[0_0_30px_rgba(6,182,212,0.2)]">
+                    <i class="fas fa-user-shield text-4xl text-cyber-primary float"></i>
+                </div>
+                
+                <span class="section-tag mb-4">Uncompromising Security</span>
+                <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-6 mt-4 tracking-tight">100% Offline & Private.</h2>
+                
+                <p class="text-xl text-gray-400 leading-relaxed mb-10">
+                    Privacy by design. We believe what you create belongs entirely to you. <strong class="text-white">Jutt Edits Studio operates completely offline.</strong> We collect exactly zero personal data, zero telemetry, and zero tracking metrics. Your creative files never leave your computer.
+                </p>
+                
+                <div class="inline-flex items-center gap-3 bg-white/5 border border-white/10 px-6 py-3 rounded-full">
+                    <i class="fas fa-check-circle text-green-500"></i>
+                    <span class="text-sm font-medium text-gray-300">No internet connection required</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (Black Vault Style) -->
+    <footer class="py-16 border-t border-gray-800 text-center bg-gray-900/50">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8 text-left">
+            <div>
+                <div class="flex flex-col gap-4 mb-4">
+                    <!-- Company Branding -->
+                    <a href="https://www.juttcybertech.com" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 group w-fit">
+                        <img src="static/logo/logo.png" alt="Jutt Cyber Tech Logo" class="h-8 md:h-10 w-auto">
+                        <span class="font-bold text-base md:text-lg tracking-[0.2em] text-white group-hover:text-cyber-primary transition-colors uppercase">Jutt Cyber Tech&trade;</span>
+                    </a>
+                    
+                    <!-- App Branding -->
+                    <div class="flex items-center gap-2 w-fit">
+                        <img src="static/logo/applogo2.png" alt="Jutt Edits Studio Logo" class="w-8 h-8 object-contain opacity-80">
+                        <span class="font-bold text-base tracking-tight text-gray-400">Jutt Edits Studio</span>
+                    </div>
+                </div>
+                <p class="text-gray-500 text-sm max-w-xs">Professional, closed-source video editing software. Designed by Jutt Cyber Tech&trade; to empower creators worldwide without compromising privacy.</p>
+            </div>
+
+            <div class="flex flex-wrap gap-8 text-sm font-semibold text-gray-400">
+                <a href="index.html" class="hover:text-cyber-primary transition">Home</a>
+                <a href="#features" class="hover:text-cyber-primary transition">Features</a>
+                <a href="https://github.com/juttcybertech/Jutt-Edits-Studio" target="_blank" class="hover:text-cyber-primary transition">GitHub Repo</a>
+                <a href="https://github.com/juttcybertech/Jutt-Edits-Studio/blob/main/LICENSE" target="_blank" class="hover:text-cyber-primary transition">License Agreement</a>
+                <a href="mailto:Contact@juttcybertech.com" class="hover:text-cyber-primary transition">Contact Us</a>
+            </div>
+
+            <div class="flex flex-wrap gap-4">
+                <a href="https://github.com/juttcybertech" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-white hover:text-black transition-all shadow-sm hover:shadow-lg hover:-translate-y-1">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.tiktok.com/@juttcybertech" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-black hover:text-white transition-all shadow-sm hover:shadow-lg hover:-translate-y-1">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://youtube.com/@juttcybertech" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-red-600 hover:text-white transition-all shadow-sm hover:shadow-lg hover:-translate-y-1">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://wa.me/923194817239" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-green-500 hover:text-white transition-all shadow-sm hover:shadow-lg hover:-translate-y-1">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-6 mt-12 pt-8 border-t border-gray-800/50 text-gray-500 text-sm font-medium text-center">
+            &copy; 2026 Jutt Edits Studio - by Jutt Cyber Tech&trade;
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-lg', 'bg-[#0a0f1c]/95');
+            } else {
+                nav.classList.remove('shadow-lg', 'bg-[#0a0f1c]/95');
+            }
+        });
+    </script>
+</body>
+
+</html>
