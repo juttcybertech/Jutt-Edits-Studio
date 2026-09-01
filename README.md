@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Assets/applogo2.png" width="200" alt="Jutt Edits Studio Logo">
+  <img src="Assets/applogo2.png" width="350" alt="Jutt Edits Studio Logo">
   <h1>Jutt Edits Studio</h1>
   <p><strong>A powerful, closed-source video editing software developed by Jutt Cyber Tech.</strong></p>
   <img src="Assets/logo.png" width="150" alt="Jutt Cyber Tech">
