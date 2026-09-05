@@ -1,36 +1,324 @@
-END USER LICENSE AGREEMENT (EULA)
-JUTT EDITS STUDIO
+# END USER LICENSE AGREEMENT (EULA)
 
-Copyright (c) 2026 Jutt Cyber Tech. All rights reserved.
+**JUTT EDITS STUDIO**
 
-IMPORTANT - READ CAREFULLY: This End User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and Jutt Cyber Tech ("Developer") for the software product identified above, which includes computer software and may include associated media, printed materials, and "online" or electronic documentation ("SOFTWARE PRODUCT").
+**Copyright © 2026 Jutt Cyber Tech. All rights reserved.**
 
-By installing, copying, or otherwise using the SOFTWARE PRODUCT, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, do not install or use the SOFTWARE PRODUCT.
+**Last Updated:** September 5, 2026
 
-1. GRANT OF LICENSE
-The Developer grants you a limited, non-exclusive, non-transferable, and revocable license to use the SOFTWARE PRODUCT in accordance with the terms of this EULA.
+---
 
-a. Personal and Commercial Use: You may use the SOFTWARE PRODUCT for both personal and commercial purposes. There are no restrictions on the monetization of the video content you create using this SOFTWARE PRODUCT.
-b. Installation: You may install and use the SOFTWARE PRODUCT on any compatible device owned or controlled by you.
+## IMPORTANT - READ CAREFULLY
 
-2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS
-a. Closed Source and Proprietary Rights: The SOFTWARE PRODUCT is closed-source. You may not reverse engineer, decompile, or disassemble the SOFTWARE PRODUCT. All source code, architecture, and design are the exclusive intellectual property of Jutt Cyber Tech.
-b. No Redistribution: You may not distribute, rent, lease, lend, sell, redistribute, or sublicense the SOFTWARE PRODUCT. You may not publish the SOFTWARE PRODUCT on any platform, marketplace, or repository.
-c. No Modification: You may not modify, adapt, translate, or create derivative works based upon the SOFTWARE PRODUCT.
-d. Intellectual Property: All title and intellectual property rights in and to the SOFTWARE PRODUCT are owned by Jutt Cyber Tech. 
+This End User License Agreement ("EULA") is a legal agreement between you ("User", "you", or "your") and **Jutt Cyber Tech** ("Developer", "we", "us", or "our") for the software product **Jutt Edits Studio**, including its software, components, documentation, interfaces, updates, and related materials (collectively, the "Software").
 
-3. DATA AND PRIVACY
-a. Zero Data Collection: The SOFTWARE PRODUCT operates 100% offline. Jutt Cyber Tech does not collect, process, transmit, or store any personal data, usage telemetry, or video content from your use of the SOFTWARE PRODUCT.
-b. Privacy by Design: No internet connection is required to operate the core features of the SOFTWARE PRODUCT, ensuring absolute privacy of your creative work.
+By installing, accessing, copying, or using the Software, you acknowledge that you have read, understood, and agree to be bound by this EULA.
 
-4. TERMINATION
-Without prejudice to any other rights, the Developer may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the SOFTWARE PRODUCT in your possession.
+**If you do not agree to these terms, do not install, access, or use the Software.**
 
-5. DISCLAIMER OF WARRANTIES
-THE SOFTWARE PRODUCT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL JUTT CYBER TECH OR ITS CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE PRODUCT OR THE USE OR OTHER DEALINGS IN THE SOFTWARE PRODUCT.
+---
 
-6. CONTACT INFORMATION
-For licensing inquiries, support, or to report violations, please contact Jutt Cyber Tech at:
-Email: Contact@juttcybertech.com
-WhatsApp: +923194817239
-TikTok/GitHub/YouTube: @juttcybertech
+# 1. LICENSE GRANT
+
+Jutt Cyber Tech grants you a limited, non-exclusive, non-transferable, revocable license to install and use Jutt Edits Studio in accordance with this EULA.
+
+### 1.1 Personal and Commercial Use
+
+You may use Jutt Edits Studio for both **personal and commercial purposes**.
+
+You may create, edit, export, publish, distribute, sell, license, monetize, or otherwise commercially use videos and other creative works produced using the Software.
+
+**Jutt Cyber Tech does not claim ownership of your original creative content solely because you created it using Jutt Edits Studio.**
+
+### 1.2 Installation
+
+You may install and use the Software on compatible devices that you own or control, subject to any applicable technical or licensing limitations.
+
+---
+
+# 2. OWNERSHIP OF THE SOFTWARE
+
+Jutt Edits Studio is proprietary and closed-source software.
+
+The Software, including its source code, executable code, architecture, algorithms, interface design, graphics, branding, trademarks, logos, documentation, and other proprietary components, is owned by or licensed to **Jutt Cyber Tech**.
+
+This EULA grants you a license to use the Software. It does **not** transfer ownership of the Software or any intellectual property rights to you.
+
+---
+
+# 3. USER CONTENT AND CREATIVE WORKS
+
+### 3.1 Your Content
+
+You retain ownership of the original videos, images, audio, projects, text, and other content that you create or import into Jutt Edits Studio, subject to the rights of any third parties who own such content.
+
+### 3.2 No Claim to Your Creative Work
+
+Jutt Cyber Tech does not acquire ownership of your original creative works merely because you use Jutt Edits Studio to create or edit them.
+
+### 3.3 Responsibility for Content
+
+You are solely responsible for ensuring that you have the necessary rights, permissions, licenses, or legal authority to use any content you import, edit, reproduce, publish, or distribute using the Software.
+
+This includes, where applicable:
+
+* Music and audio recordings
+* Videos and footage
+* Images and photographs
+* Fonts
+* Logos and trademarks
+* Templates
+* Third-party graphics
+* Stock media
+* Copyrighted material
+* AI-generated or third-party-generated content
+
+Jutt Cyber Tech is not responsible for copyright infringement or other claims resulting from content supplied or used by the User.
+
+---
+
+# 4. COMMERCIAL USE AND MONETIZATION
+
+You are permitted to use Jutt Edits Studio to create content for commercial purposes.
+
+You may monetize content created using the Software through platforms and services including, but not limited to:
+
+* YouTube
+* TikTok
+* Facebook
+* Instagram
+* Websites
+* Advertising platforms
+* Client projects
+* Freelance work
+* Business projects
+* Film and media projects
+
+No separate royalty is owed to Jutt Cyber Tech solely because you monetize content created using the Software.
+
+---
+
+# 5. RESTRICTIONS
+
+You may **not**:
+
+### 5.1 Reverse Engineering
+
+Reverse engineer, decompile, disassemble, decode, decrypt, or otherwise attempt to obtain the source code or underlying structure of the Software, except where such restriction is prohibited by applicable law.
+
+### 5.2 Redistribution
+
+Copy, distribute, publish, upload, mirror, sell, rent, lease, lend, sublicense, or otherwise redistribute the Software itself.
+
+This includes publishing the Software or its installers on unauthorized:
+
+* Websites
+* File-sharing services
+* App stores
+* Marketplaces
+* Repositories
+* Torrents
+* Download platforms
+
+### 5.3 Modification
+
+Modify, adapt, alter, patch, translate, or create derivative works of the Software itself.
+
+### 5.4 Unauthorized Commercial Distribution
+
+You may commercially use the **content you create with the Software**, but you may not commercially redistribute or resell the **Software itself** unless expressly authorized in writing by Jutt Cyber Tech.
+
+### 5.5 Circumvention
+
+You may not bypass, remove, disable, or circumvent technical protection mechanisms, license controls, activation systems, or security features implemented in the Software.
+
+---
+
+# 6. THIRD-PARTY COMPONENTS
+
+Jutt Edits Studio may contain or interact with third-party software, libraries, codecs, frameworks, media formats, or other components.
+
+Such components may be subject to their own licenses and terms.
+
+Nothing in this EULA is intended to override or restrict rights granted to you under applicable third-party open-source or other licenses.
+
+Where required, applicable third-party license notices may be provided with the Software.
+
+---
+
+# 7. OFFLINE OPERATION AND PRIVACY
+
+Jutt Edits Studio is designed to operate primarily as an **offline application**.
+
+Where the Software operates without an internet connection:
+
+* Your video files remain on your device.
+* Your project files remain on your device.
+* Your imported media remains on your device.
+* Jutt Cyber Tech does not intentionally collect or transmit your creative content.
+* Jutt Cyber Tech does not intentionally collect personal information through the offline editing functionality.
+
+Certain optional features, updates, integrations, or external services may require an internet connection if introduced in the future.
+
+The Software's privacy practices are subject to the functionality actually provided in the version you use.
+
+---
+
+# 8. AI FEATURES
+
+If Jutt Edits Studio provides artificial intelligence or machine-learning features, outputs generated by those features may vary and may not always be accurate, unique, or suitable for a particular purpose.
+
+You are responsible for reviewing AI-generated results before using, publishing, or distributing them.
+
+You are also responsible for ensuring that your use of AI-generated or AI-assisted content complies with applicable laws and the terms of any third-party services or models involved.
+
+Jutt Cyber Tech does not guarantee that AI-generated content will be unique, error-free, or free from third-party rights claims.
+
+---
+
+# 9. UPDATES AND CHANGES
+
+Jutt Cyber Tech may release updates, patches, improvements, bug fixes, security updates, or new versions of Jutt Edits Studio.
+
+Updates may change, add, remove, or modify features.
+
+Future versions may be subject to updated license terms where permitted by applicable law.
+
+---
+
+# 10. DISCLAIMER OF WARRANTIES
+
+THE SOFTWARE IS PROVIDED **"AS IS"** AND **"AS AVAILABLE"**, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.
+
+JUTT CYBER TECH DISCLAIMS ALL WARRANTIES, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+JUTT CYBER TECH DOES NOT WARRANT THAT THE SOFTWARE WILL:
+
+* Always operate without interruption;
+* Be completely error-free;
+* Work with every device or hardware configuration;
+* Produce a particular result;
+* Prevent all loss or corruption of project files;
+* Meet every individual requirement of the User.
+
+You are responsible for maintaining appropriate backups of your projects, media, and exported files.
+
+---
+
+# 11. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, JUTT CYBER TECH AND ITS CONTRIBUTORS, DEVELOPERS, AFFILIATES, AND LICENSORS SHALL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES ARISING FROM OR RELATED TO THE SOFTWARE OR ITS USE.
+
+THIS MAY INCLUDE, WITHOUT LIMITATION:
+
+* LOSS OF DATA
+* LOSS OF PROJECTS
+* LOSS OF PROFITS
+* LOSS OF BUSINESS
+* LOSS OF REVENUE
+* LOSS OF CONTENT
+* BUSINESS INTERRUPTION
+* DEVICE OR SYSTEM FAILURE
+
+NOTHING IN THIS EULA EXCLUDES OR LIMITS LIABILITY THAT CANNOT LEGALLY BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.
+
+---
+
+# 12. TERMINATION
+
+This license remains effective until terminated.
+
+Jutt Cyber Tech may terminate this license if you materially violate this EULA.
+
+Upon termination, you must:
+
+1. Stop using the Software.
+2. Uninstall the Software.
+3. Delete unauthorized copies of the Software in your possession or control.
+
+Termination does not affect rights or obligations that by their nature should survive termination, including intellectual property rights, disclaimers, limitations of liability, and applicable legal provisions.
+
+---
+
+# 13. COPYRIGHT AND TRADEMARKS
+
+Jutt Edits Studio, Jutt Cyber Tech, associated logos, names, designs, and branding are protected by applicable intellectual property laws.
+
+You may not use Jutt Cyber Tech's trademarks, logos, or branding in a manner that suggests sponsorship, endorsement, affiliation, or ownership without written permission.
+
+---
+
+# 14. PROHIBITED USES
+
+You may not use the Software to intentionally facilitate unlawful activities or to violate applicable laws.
+
+You remain responsible for your use of the Software and for the content you create, edit, export, publish, or distribute.
+
+---
+
+# 15. EXPORTS AND MEDIA FILES
+
+Jutt Edits Studio provides tools for creating and exporting media.
+
+The User is responsible for:
+
+* Selecting appropriate export settings;
+* Maintaining backups;
+* Checking exported files;
+* Ensuring that exported content complies with applicable laws;
+* Ensuring that third-party media is properly licensed.
+
+Jutt Cyber Tech does not guarantee compatibility with every existing or future media format, codec, device, or platform.
+
+---
+
+# 16. GOVERNING LAW
+
+This EULA shall be interpreted and governed by the applicable laws of the jurisdiction in which Jutt Cyber Tech is legally established, except where applicable law requires otherwise.
+
+Nothing in this section limits any mandatory consumer rights that cannot legally be waived.
+
+---
+
+# 17. SEVERABILITY
+
+If any provision of this EULA is determined to be invalid, unlawful, or unenforceable, that provision shall be interpreted or modified to the minimum extent necessary to make it enforceable.
+
+The remaining provisions shall continue in full force and effect.
+
+---
+
+# 18. ENTIRE AGREEMENT
+
+This EULA constitutes the agreement between you and Jutt Cyber Tech regarding your use of Jutt Edits Studio and supersedes prior agreements concerning the same subject matter, except where separate written terms expressly apply.
+
+---
+
+# 19. CONTACT INFORMATION
+
+For licensing questions, technical support, legal notices, or reports concerning violations of this EULA, contact:
+
+**Jutt Cyber Tech**
+
+**Email:** [Contact@juttcybertech.com](mailto:Contact@juttcybertech.com)
+
+**WhatsApp:** +92 319 4817239
+
+**TikTok:** @juttcybertech
+
+**GitHub:** @juttcybertech
+
+**YouTube:** @juttcybertech
+
+---
+
+# 20. ACCEPTANCE
+
+By installing, accessing, or using **Jutt Edits Studio**, you acknowledge that you have read, understood, and agreed to this EULA.
+
+If you do not agree to this EULA, you must not install or use the Software.
+
+**© 2026 Jutt Cyber Tech. All rights reserved.**
+
+**Jutt Edits Studio**
+**Professional Video Editing. Private by Design.**
