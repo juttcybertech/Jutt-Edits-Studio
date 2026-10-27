@@ -1,25 +1,46 @@
 <div align="center">
-  <img src="Assets/applogo2.png" width="350" alt="Jutt Edits Studio Logo">
-  <h1>Jutt Edits Studio</h1>
-  <p><strong>A powerful, closed-source video editing software developed by Jutt Cyber Tech.</strong></p>
-  <img src="Assets/logo.png" width="150" alt="Jutt Cyber Tech">
-</div>
+
+# 🎬 Jutt Edit Studio (JES)
+
+**Offline, Zero-Login Professional Desktop Video Editor**
+
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://juttcybertech.com) [![Microsoft Store](https://img.shields.io/badge/Microsoft_Store-0078D6?style=for-the-badge&logo=microsoft&logoColor=white)](http://jes.juttcybertech.com) [![Offline First](https://img.shields.io/badge/Offline-107C41?style=for-the-badge&logo=signal&logoColor=white)](http://jes.juttcybertech.com)
+[![No Account Needed](https://img.shields.io/badge/Account-Not_Required-green?style=for-the-badge&logo=shield&logoColor=white)](http://jes.juttcybertech.com) [![Privacy First](https://img.shields.io/badge/Privacy-Zero_Tracking-red?style=for-the-badge&logo=lock&logoColor=white)](http://jes.juttcybertech.com)
+
+<br/>
+
+<p align="center">
+  <img src="Assets/applogo2.png" width="60%" alt="Black Vault Preview" />
+</p>
+
+<br/>
+
+<br/>
+
+## **[Get it on Microsoft Store](https://apps.microsoft.com/detail/9NMG7DMVQR01?hl=en-us&gl=MY&ocid=pdpshare)**
+
+<br/>
+
+**Developer:** Jutt Cyber Tech | **Status:** 🟢 Proprietary / Stable
 
 ---
 
-### 🌟 Why We Built Jutt Edits Studio
-We developed **Jutt Edits Studio** with one simple goal: to empower creators by providing them with a high-performance, professional-grade video editing tool that is completely free of charge. In a world full of expensive monthly subscriptions and software that constantly tracks your data, Jutt Cyber Tech wanted to innovate and build something different. We believe that everyone should have access to the tools they need to bring their creative visions to life—fully offline, fully private, and completely free. 
+## 🚀 Overview
+**Jutt Edit Studio (JES)** is a fast, offline-first video editing application designed for creators who demand performance without compromising privacy. Operating entirely locally on your device, JES requires **no user accounts, no sign-ins, and zero internet connection** to edit and render your videos.
 
-### 🔒 Closed Source Software
-**Jutt Edits Studio** is the exclusive intellectual property of **Jutt Cyber Tech**. The core application source code is strictly proprietary and is securely protected; it is not available in this public repository.
+## ✨ Key Features
+**✂️ Multi-Track Timeline** | **⚡ Fast Local Rendering** | **🔒 100% Offline Editing**
+**🎨 Effects & Transitions** | **🎵 Audio Tools & Mixing** | **🚫 No Account / No Sign-In**
 
-### 📜 License Information
-- **Free for Personal & Commercial Use**: You are free to download and use the application for any purpose.
-- **Redistribution Prohibited**: The application is not salable, sub-licensable, or publishable anywhere else.
-- **Privacy by Design**: This software operates 100% offline and collects exactly **zero** personal data. We are just trying to innovate!
+---
 
-### 📞 Contact Support
-For business inquiries, urgent matters, or support (24/7):
-- **Email**: Contact@juttcybertech.com
-- **WhatsApp**: +923194817239
-- **Socials (TikTok, GitHub, YouTube)**: @juttcybertech
+## 🔒 Privacy & Local Processing
+**Jutt Cyber Tech Never Compromises on User Privacy.**  
+Jutt Edit Studio processes all video rendering, media assets, and project files entirely offline on your local machine. We do not track, log, telemetry, or store your content on remote servers. Your projects stay on your hardware—always.
+
+## 📞 Official Information
+🌐 [juttcybertech.com](https://juttcybertech.com) | 📧 [Contact@juttcybertech.com](mailto:Contact@juttcybertech.com) | 💬 [WhatsApp](https://wa.me/923194817239)
+
+*(c) 2026 Jutt Cyber Tech. All rights reserved.*
+
+</div>
